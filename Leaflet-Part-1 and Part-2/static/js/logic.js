@@ -72,7 +72,8 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     style: styleInfo,
     // Create a popup for each marker to display the magnitude and location of the earthquake after the marker has been created and styled
     onEachFeature: function (feature, layer) {
-      layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
+      const depth = feature.geometry.coordinates[2];
+      layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place + "<br>Depth: " + depth + "km");
     }
   // OPTIONAL: Step 2
   // Add the data to the earthquake layer instead of directly to the map.

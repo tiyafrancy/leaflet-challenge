@@ -51,10 +51,10 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   function getColor(depth) {
     if (depth > 90) return "red";
     else if (depth > 70) return "orange";
-    else if (depth > 50) return "yellow";
-    else if (depth > 30) return "green";
-    else if ( depth > 10) return "purple";
-    else return "black"
+    else if (depth > 50) return "gold";
+    else if (depth > 30) return "yellow";
+    else if ( depth > 10) return "green";
+    else return "cyan"
   }
 
   // This function determines the radius of the earthquake marker based on its magnitude.
@@ -90,7 +90,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
     // Initialize depth intervals and colors for the legend
     const depthIntervals = [0, 10, 30, 50, 70, 90];
-    const colors = ["black", "purple", "green", "yellow", "orange", "red"];
+    const colors = ["cyan", "green", "yellow", "gold", "orange", "red"];
 
     // Loop through our depth intervals to generate a label with a colored square for each interval.
     for (let i = 0; i < depthIntervals.length; i++){

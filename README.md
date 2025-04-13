@@ -1,8 +1,10 @@
 # Module 15 Challenge     
 
-      In this challenge, we are developing a way to visualize USGS earthquake data that will educate the public and other government organizations. Here, we created an Interactive map with earthquake data. Each point displays the magnitude, location, and depth of the earthquake. Data point colors change with the depth level.    
+In this Challenge, we are developing a way to visualize USGS earthquake data that will educate the public and other government organizations. Here, we created an Interactive map with earthquake data. Each point displays the magnitude, location, and depth of the earthquake. Data point colors changes with the depth level.
+    
 
-           This is the URL we used to explore the geoJSON data : https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
+This is the URL we used to explore the geoJSON data: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
+
 
 
                    
@@ -12,10 +14,9 @@
 
 
 
-
-                  Data markers reflects the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.     
+Data markers reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes appeared in larger size and earthquakes with greater depth appeared in darker color. 
                             
-This result page looks like the following image:
+The result page looks like the following image:
                   
 ![Screenshot of the result page](https://github.com/user-attachments/assets/4d9320aa-370e-4cde-99c9-30aeb3bbd027)
 

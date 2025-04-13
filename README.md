@@ -6,4 +6,20 @@
 
 
                    
-<img width="839" alt="Screenshot 2025-04-13 at 4 53 34 PM" src="https://github.com/user-attachments/assets/c0c24e6c-70c6-4b48-9480-1efde9e0ec89" />
+<img width="839" alt="Screenshot 2025-04-13 at 4 53 34 PM" src="https://github.com/user-attachments/assets/c0c24e6c-70c6-4b48-9480-1efde9e0ec89" />      
+
+
+
+
+
+
+                  Data markers reflects the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.     
+                            
+This result page looks like the following image:
+                  
+![Screenshot of the result page](https://github.com/user-attachments/assets/4d9320aa-370e-4cde-99c9-30aeb3bbd027)
+
+
+# Acknowledgment   
+          
+I have done this assignment using the help of some internet searches and some help from my SMU Instructor.
